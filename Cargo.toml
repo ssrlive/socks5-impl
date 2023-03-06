@@ -14,7 +14,7 @@ repository = "https://github.com/ssrlive/socks5-impl"
 async-trait = "0.1.*"
 byteorder = "1.4.*"
 bytes = "1.4.*"
-tokio = { version = "1.25.*", features = ["io-util", "net"] }
+tokio = { version = "1.26.*", features = ["io-util", "net"] }
 
 [dev-dependencies]
-tokio = { version = "1.25.*", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.26.*", features = ["macros", "rt-multi-thread"] }
